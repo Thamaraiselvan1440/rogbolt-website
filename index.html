@@ -1,1183 +1,622 @@
 <!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns#">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROGBOLT (ROGBOLT CLOUD) | Anchored like Kjeragbolten &bull; Engineered like a Ragbolt</title>
-    <meta name="description" content="ROGBOLT (also searched as Rogbold, Ragbolt, Ragbold, Rogbolt Cloud, Rogbolt Andaman) engineers rock-solid B2B IT, Cloud setup, web applications, and digital infrastructure from Sri Vijaya Puram (Port Blair), India.">
-    <meta name="keywords" content="ROGBOLT, Rogbolt, rogbolt.com, ROGBOLT CLOUD, Rogbolt Cloud, rogboltcloud.com, Rogbold, ROGBOLD, rogbold.com, Rogbold Cloud, Rogbold IT, Rogbold Andaman, Ragbolt, RAGBOLT, ragbolt.com, Ragbolt Cloud, Ragbolt IT, Ragbolt Andaman, Ragbold, ragbold.com, Rockbolt, rockbolt.com, Rog Bolt, Rog-Bolt, Rag Bolt, Kjeragbolten, Rogbolt Sri Vijaya Puram, Rogbolt Port Blair, Rogbolt India, B2B IT Services Andaman">
-    <meta name="author" content="ROGBOLT">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-    <link rel="canonical" href="https://rogbolt.com/">
-
-    <!-- Google Search & Browser Favicon (Clean Single Extension) -->
-    <link rel="icon" href="/logo-icon.png" sizes="192x192" type="image/png">
-    <link rel="shortcut icon" href="/logo-icon.png" type="image/png">
-    <link rel="apple-touch-icon" href="/logo-icon.png">
-
-    <!-- Open Graph / Social Share SEO -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="ROGBOLT">
-    <meta property="og:title" content="ROGBOLT | Anchored like Kjeragbolten • Engineered like a Ragbolt">
-    <meta property="og:description" content="Rock-solid B2B IT, Cloud setup, web engineering, and digital infrastructure built for permanence and growth.">
-    <meta property="og:url" content="https://rogbolt.com/">
-    <meta property="og:image" content="https://rogbolt.com/logo-full.png">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="ROGBOLT | B2B IT, Cloud &amp; Digital Infrastructure">
-    <meta name="twitter:description" content="Anchored like Kjeragbolten • Engineered like a Ragbolt.">
-    <meta name="twitter:image" content="https://rogbolt.com/logo-full.png">
-
-    <!-- Organization Structured Data with 30+ Brand & Phonetic Variations for Google Search -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "ROGBOLT",
-      "legalName": "ROGBOLT CLOUD (OPC) PRIVATE LIMITED",
-      "alternateName": [
-        "Rogbolt",
-        "ROGBOLT CLOUD",
-        "Rogbolt Cloud",
-        "Rogbolt IT",
-        "Rogbolt Digital",
-        "Rogbolt Andaman",
-        "Rogbolt Port Blair",
-        "Rogbolt Sri Vijaya Puram",
-        "Rogbolt India",
-        "Rogbold",
-        "ROGBOLD",
-        "Rogbold Cloud",
-        "Rogbold IT",
-        "Rogbold Andaman",
-        "Ragbolt",
-        "RAGBOLT",
-        "Ragbolt Cloud",
-        "Ragbolt IT",
-        "Ragbolt Andaman",
-        "Ragbold",
-        "RAGBOLD",
-        "Rockbolt",
-        "ROCKBOLT",
-        "Rog Bolt",
-        "Rog-Bolt",
-        "Rag Bolt",
-        "Kjeragbolten IT",
-        "rogbolt.com",
-        "rogbold.com",
-        "ragbolt.com",
-        "ragbold.com"
-      ],
-      "url": "https://rogbolt.com/",
-      "logo": "https://rogbolt.com/logo-full.png",
-      "email": "thamarai@rogbolt.com",
-      "founder": {
-        "@type": "Person",
-        "name": "Tamarai Selvan"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Sri Vijaya Puram (Port Blair)",
-        "addressRegion": "Andaman and Nicobar Islands",
-        "addressCountry": "IN"
-      },
-      "areaServed": ["Sri Vijaya Puram", "Port Blair", "Andaman and Nicobar Islands", "India", "Worldwide"],
-      "description": "Anchored like Kjeragbolten, engineered like a Ragbolt. ROGBOLT (also referenced as Rogbold, Ragbolt, and Rogbolt Cloud) delivers rock-solid B2B IT, Cloud setup, web engineering, and digital infrastructure."
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROGBOLT CLOUD | Sub-2-Second Enterprise Web & Cloud Infrastructure</title>
+  <meta name="description" content="ROGBOLT CLOUD builds sub-2-second, Cloudflare-hardened websites and zero-commission booking architectures for hotels, resorts, and enterprises in Sri Vijaya Puram, Andaman & Nicobar Islands.">
+  <meta name="theme-color" content="#071329">
+  <link rel="icon" type="image/webp" href="logo-icon.webp">
+  <link rel="preload" as="image" href="logo-full.webp">
+  <style>
+    :root {
+      --bg-primary: #071329;
+      --bg-secondary: #0c1d3d;
+      --bg-card: #10254d;
+      --accent-cyan: #00d2ff;
+      --accent-blue: #2563eb;
+      --text-main: #f8fafc;
+      --text-muted: #cbd5e1;
+      --border-subtle: rgba(0, 210, 255, 0.22);
+      --success: #10b981;
+      --danger: #ef4444;
     }
-    </script>
 
-    <style>
-        :root {
-            --bg-deep: #050C1B;
-            --bg-panel: rgba(11, 24, 48, 0.86);
-            --cyan: #00D2FF;
-            --royal: #0066FF;
-            --muted: #94A3B8;
-            --emerald: #10B981;
-            --amber: #F59E0B;
-            --border: rgba(0, 210, 255, 0.22);
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-            -webkit-tap-highlight-color: transparent;
-        }
-        body {
-            background: radial-gradient(circle at 50% -5%, #0F2954 0%, var(--bg-deep) 72%);
-            color: #F8FAFC;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            overflow-x: hidden;
-        }
-        .cyber-grid {
-            position: fixed;
-            inset: 0;
-            background-image: 
-                linear-gradient(rgba(0, 210, 255, 0.04) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 210, 255, 0.04) 1px, transparent 1px);
-            background-size: 40px 40px;
-            z-index: -1;
-            pointer-events: none;
-        }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-        /* Sticky Left-Edge Floating WhatsApp Icon */
-        .wa-sticky-float {
-            position: fixed;
-            left: 14px;
-            bottom: 84px;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: linear-gradient(145deg, #25D366, #128C7E);
-            color: #FFFFFF;
-            display: grid;
-            place-items: center;
-            box-shadow: 0 8px 24px rgba(37, 211, 102, 0.42), 0 0 0 2px rgba(255, 255, 255, 0.14);
-            z-index: 95;
-            text-decoration: none;
-            transition: transform 0.25s ease, box-shadow 0.25s ease;
-        }
-        .wa-sticky-float:hover {
-            transform: scale(1.08);
-            box-shadow: 0 12px 28px rgba(37, 211, 102, 0.6);
-        }
+    html {
+      scroll-behavior: smooth;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      line-height: 1.6;
+    }
 
-        /* Header with Top-Right 3-Dots Menu */
-        header {
-            padding: 14px 6%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: rgba(5, 12, 27, 0.9);
-            backdrop-filter: blur(18px);
-            border-bottom: 1px solid var(--border);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-        .brand-btn {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            background: none;
-            border: none;
-            color: #FFFFFF;
-            cursor: pointer;
-            text-align: left;
-        }
-        .header-logo {
-            width: 44px;
-            height: 44px;
-            border-radius: 11px;
-            object-fit: cover;
-            border: 1px solid rgba(0, 210, 255, 0.4);
-            box-shadow: 0 0 18px rgba(0, 210, 255, 0.3);
-            background: #081226;
-        }
-        .brand-title {
-            font-size: 1.22rem;
-            font-weight: 800;
-            letter-spacing: 1.5px;
-            line-height: 1.1;
-        }
-        .brand-sub {
-            font-size: 0.68rem;
-            color: var(--cyan);
-            letter-spacing: 1.8px;
-            font-weight: 700;
-        }
+    body {
+      overflow-x: hidden;
+    }
 
-        /* Top-Right 3-Dots Dropdown */
-        .menu-wrapper {
-            position: relative;
-        }
-        .dots-trigger {
-            width: 42px;
-            height: 42px;
-            border-radius: 12px;
-            background: rgba(0, 210, 255, 0.1);
-            border: 1px solid rgba(0, 210, 255, 0.35);
-            color: var(--cyan);
-            display: grid;
-            place-items: center;
-            cursor: pointer;
-            transition: all 0.25s ease;
-        }
-        .dots-trigger:hover, .dots-trigger.open {
-            background: linear-gradient(135deg, var(--royal), var(--cyan));
-            color: #030914;
-            box-shadow: 0 0 20px rgba(0, 210, 255, 0.45);
-        }
-        .dropdown-menu {
-            position: absolute;
-            top: 52px;
-            right: 0;
-            width: 220px;
-            background: rgba(8, 18, 38, 0.97);
-            border: 1px solid rgba(0, 210, 255, 0.38);
-            border-radius: 16px;
-            padding: 8px;
-            backdrop-filter: blur(20px);
-            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.78);
-            display: none;
-            flex-direction: column;
-            gap: 4px;
-            z-index: 120;
-            animation: menuPop 0.22s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-        .dropdown-menu.show {
-            display: flex;
-        }
-        @keyframes menuPop {
-            from { opacity: 0; transform: translateY(-10px) scale(0.96); }
-            to { opacity: 1; transform: translateY(0) scale(1); }
-        }
-        .menu-item {
-            display: flex;
-            align-items: center;
-            width: 100%;
-            padding: 11px 14px;
-            border-radius: 10px;
-            border: none;
-            background: transparent;
-            color: #CBD5E1;
-            font-size: 0.92rem;
-            font-weight: 600;
-            cursor: pointer;
-            text-align: left;
-            transition: all 0.2s;
-        }
-        .menu-item:hover {
-            background: rgba(0, 210, 255, 0.12);
-            color: #FFFFFF;
-        }
-        .menu-item.active {
-            background: linear-gradient(90deg, rgba(0, 102, 255, 0.35), rgba(0, 210, 255, 0.25));
-            color: var(--cyan);
-            border: 1px solid rgba(0, 210, 255, 0.35);
-            font-weight: 700;
-        }
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
 
-        /* Main Dynamic Stage */
-        main {
-            flex: 1;
-            max-width: 1080px;
-            width: 100%;
-            margin: 0 auto;
-            padding: 26px 20px 104px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .view-section {
-            display: none;
-            width: 100%;
-            animation: slideFade 0.38s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-        .view-section.active {
-            display: block;
-        }
-        @keyframes slideFade {
-            from { opacity: 0; transform: translateY(14px) scale(0.99); }
-            to { opacity: 1; transform: translateY(0) scale(1); }
-        }
+    /* Header & Navigation */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(7, 19, 41, 0.94);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
 
-        /* Hero / Home View */
-        .hero-box {
-            text-align: center;
-            max-width: 830px;
-            margin: 0 auto;
-        }
-        .hero-logo-wrap {
-            margin: 0 auto 20px;
-            width: 205px;
-            height: 205px;
-            border-radius: 28px;
-            padding: 5px;
-            background: linear-gradient(145deg, rgba(0, 210, 255, 0.42), rgba(0, 102, 255, 0.12));
-            box-shadow: 0 20px 50px rgba(0, 210, 255, 0.22);
-            animation: floatLogo 4.5s ease-in-out infinite;
-        }
-        @keyframes floatLogo {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-6px); }
-        }
-        .hero-logo-wrap img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 24px;
-            display: block;
-            background: #081226;
-        }
-        .origin-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(0, 210, 255, 0.12);
-            border: 1px solid rgba(0, 210, 255, 0.38);
-            color: var(--cyan);
-            padding: 7px 16px;
-            border-radius: 50px;
-            font-size: 0.78rem;
-            font-weight: 700;
-            letter-spacing: 0.5px;
-            margin-bottom: 16px;
-        }
-        .dot-pulse {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background: var(--emerald);
-            box-shadow: 0 0 10px var(--emerald);
-            animation: pulse 1.8s infinite;
-            flex-shrink: 0;
-        }
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 1; }
-            50% { transform: scale(1.35); opacity: 0.45; }
-        }
-        h1 {
-            font-size: clamp(1.9rem, 4.5vw, 3.2rem);
-            font-weight: 800;
-            line-height: 1.18;
-            margin-bottom: 14px;
-            background: linear-gradient(95deg, #FFFFFF 30%, #7DD3FC 70%, var(--cyan) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        .lead {
-            color: var(--muted);
-            font-size: 1.03rem;
-            line-height: 1.66;
-            margin-bottom: 22px;
-        }
-        .pillars-strip {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 24px;
-        }
-        .pillar-chip {
-            background: rgba(15, 29, 54, 0.72);
-            border: 1px solid rgba(0, 210, 255, 0.22);
-            padding: 8px 14px;
-            border-radius: 10px;
-            font-size: 0.82rem;
-            color: #E2E8F0;
-            font-weight: 600;
-        }
-        .action-row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 12px;
-            margin-bottom: 26px;
-        }
-        .btn-primary {
-            background: linear-gradient(90deg, var(--royal), var(--cyan));
-            color: #030A17;
-            font-weight: 800;
-            padding: 13px 26px;
-            border-radius: 12px;
-            border: none;
-            font-size: 0.94rem;
-            cursor: pointer;
-            box-shadow: 0 8px 24px rgba(0, 210, 255, 0.3);
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-        }
-        .btn-secondary {
-            background: rgba(255, 255, 255, 0.06);
-            color: #FFFFFF;
-            font-weight: 700;
-            padding: 13px 22px;
-            border-radius: 12px;
-            border: 1px solid rgba(0, 210, 255, 0.32);
-            font-size: 0.93rem;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-        }
-        .btn-whatsapp {
-            background: rgba(16, 185, 129, 0.16);
-            color: #34D399;
-            border: 1px solid rgba(16, 185, 129, 0.45);
-            font-weight: 700;
-            padding: 13px 22px;
-            border-radius: 12px;
-            font-size: 0.93rem;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-        }
+    .nav-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 0;
+    }
 
-        /* Zero-Backend Lead Capture Bar */
-        .lead-capture-box {
-            background: rgba(8, 19, 40, 0.85);
-            border: 1px solid rgba(0, 210, 255, 0.28);
-            border-radius: 16px;
-            padding: 16px 18px;
-            max-width: 560px;
-            margin: 0 auto;
-        }
-        .lead-capture-label {
-            font-size: 0.8rem;
-            color: #CBD5E1;
-            margin-bottom: 10px;
-            font-weight: 600;
-        }
-        .lead-capture-form {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-        .lead-capture-form input {
-            flex: 1;
-            min-width: 210px;
-            padding: 11px 14px;
-            border-radius: 10px;
-            border: 1px solid rgba(0, 210, 255, 0.3);
-            background: rgba(3, 9, 20, 0.9);
-            color: #FFFFFF;
-            font-size: 0.9rem;
-            outline: none;
-        }
-        .lead-capture-form button {
-            padding: 11px 18px;
-            border-radius: 10px;
-            border: none;
-            background: linear-gradient(90deg, var(--royal), var(--cyan));
-            color: #030A17;
-            font-weight: 800;
-            font-size: 0.88rem;
-            cursor: pointer;
-            white-space: nowrap;
-        }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-main);
+    }
 
-        /* Section Headers & Cards */
-        .section-header {
-            text-align: center;
-            margin-bottom: 26px;
-        }
-        .section-header h2 {
-            font-size: clamp(1.6rem, 3.6vw, 2.35rem);
-            margin-bottom: 8px;
-        }
-        .section-header p {
-            color: var(--muted);
-            max-width: 670px;
-            margin: 0 auto;
-            line-height: 1.6;
-        }
-        .sub-divider {
-            font-size: 0.82rem;
-            font-weight: 800;
-            letter-spacing: 1.4px;
-            text-transform: uppercase;
-            color: var(--cyan);
-            margin: 26px 0 14px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        .sub-divider::after {
-            content: "";
-            flex: 1;
-            height: 1px;
-            background: rgba(0, 210, 255, 0.2);
-        }
-        .grid-3 {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 18px;
-        }
-        .grid-2 {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
-            gap: 18px;
-        }
-        .panel-card {
-            background: var(--bg-panel);
-            border: 1px solid var(--border);
-            border-radius: 18px;
-            padding: 24px 22px;
-            backdrop-filter: blur(14px);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-        .badge-ready {
-            display: inline-block;
-            align-self: flex-start;
-            background: rgba(16, 185, 129, 0.16);
-            color: #34D399;
-            border: 1px solid rgba(16, 185, 129, 0.35);
-            font-size: 0.7rem;
-            font-weight: 700;
-            padding: 3px 10px;
-            border-radius: 50px;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-        }
-        .badge-planned {
-            display: inline-block;
-            align-self: flex-start;
-            background: rgba(245, 158, 11, 0.14);
-            color: #FBBF24;
-            border: 1px solid rgba(245, 158, 11, 0.35);
-            font-size: 0.7rem;
-            font-weight: 700;
-            padding: 3px 10px;
-            border-radius: 50px;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-        }
-        .panel-card h3 {
-            color: #FFFFFF;
-            font-size: 1.12rem;
-            margin-bottom: 8px;
-        }
-        .panel-card p {
-            color: var(--muted);
-            font-size: 0.92rem;
-            line-height: 1.58;
-            margin-bottom: 12px;
-        }
-        .deliverable-box {
-            background: rgba(4, 11, 24, 0.68);
-            border-left: 3px solid var(--cyan);
-            padding: 10px 12px;
-            border-radius: 0 8px 8px 0;
-            font-size: 0.83rem;
-            color: #CBD5E1;
-            line-height: 1.5;
-        }
-        .deliverable-box strong {
-            color: var(--cyan);
-        }
+    .brand img {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+      border-radius: 8px;
+    }
 
-        /* All 4 Stages Visible Grid + Proof of Work Architecture */
-        .stage-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-            gap: 16px;
-            margin-bottom: 24px;
-        }
-        .stage-card {
-            background: var(--bg-panel);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 20px 18px;
-        }
-        .stage-num {
-            font-size: 0.74rem;
-            font-weight: 800;
-            color: var(--cyan);
-            letter-spacing: 1.2px;
-            text-transform: uppercase;
-            margin-bottom: 6px;
-        }
-        .stage-card h3 {
-            font-size: 1.05rem;
-            margin-bottom: 8px;
-            color: #FFFFFF;
-        }
-        .stage-card p {
-            font-size: 0.88rem;
-            color: var(--muted);
-            line-height: 1.55;
-        }
-        .proof-box {
-            background: rgba(6, 16, 34, 0.9);
-            border: 1px solid rgba(0, 210, 255, 0.32);
-            border-radius: 18px;
-            padding: 22px;
-        }
-        .arch-diagram {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: space-between;
-            gap: 10px;
-            margin: 16px 0;
-            padding: 14px;
-            background: rgba(3, 9, 20, 0.8);
-            border-radius: 12px;
-            border: 1px dashed rgba(0, 210, 255, 0.3);
-        }
-        .arch-node {
-            flex: 1;
-            min-width: 140px;
-            text-align: center;
-            padding: 10px 8px;
-            background: rgba(0, 210, 255, 0.08);
-            border: 1px solid rgba(0, 210, 255, 0.25);
-            border-radius: 10px;
-            font-size: 0.8rem;
-            color: #E2E8F0;
-            font-weight: 600;
-        }
-        .arch-node span {
-            display: block;
-            font-size: 0.7rem;
-            color: var(--cyan);
-            margin-top: 3px;
-        }
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+    }
 
-        /* Brand Origin Story Card */
-        .origin-card {
-            background: linear-gradient(135deg, rgba(11, 28, 58, 0.92), rgba(6, 15, 34, 0.94));
-            border: 1px solid rgba(0, 210, 255, 0.35);
-            border-radius: 20px;
-            padding: 24px;
-            margin-bottom: 18px;
-        }
-        .origin-chain {
-            display: inline-flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 8px;
-            background: rgba(0, 210, 255, 0.12);
-            border: 1px solid rgba(0, 210, 255, 0.3);
-            padding: 6px 14px;
-            border-radius: 50px;
-            font-size: 0.82rem;
-            font-weight: 800;
-            color: var(--cyan);
-            margin-bottom: 12px;
-        }
-        .policy-note {
-            margin-top: 18px;
-            background: rgba(4, 11, 24, 0.68);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 14px;
-            padding: 18px 20px;
-            font-size: 0.82rem;
-            color: var(--muted);
-            line-height: 1.6;
-        }
-        .alias-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            margin-top: 10px;
-        }
-        .alias-tag {
-            background: rgba(0, 210, 255, 0.08);
-            border: 1px solid rgba(0, 210, 255, 0.2);
-            color: #94A3B8;
-            padding: 3px 9px;
-            border-radius: 6px;
-            font-size: 0.73rem;
-        }
+    .brand-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      color: #ffffff;
+    }
 
-        /* Contact Form & Direct Channels */
-        .contact-card {
-            background: var(--bg-panel);
-            border: 1px solid var(--border);
-            border-radius: 20px;
-            padding: 28px 24px;
-            max-width: 620px;
-            margin: 0 auto;
-        }
-        .quick-channels {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-        .form-group {
-            margin-bottom: 14px;
-            text-align: left;
-        }
-        .form-group label {
-            display: block;
-            font-size: 0.83rem;
-            color: #CBD5E1;
-            margin-bottom: 5px;
-            font-weight: 600;
-        }
-        .form-group input, .form-group select, .form-group textarea {
-            width: 100%;
-            padding: 11px 14px;
-            border-radius: 10px;
-            border: 1px solid rgba(0, 210, 255, 0.25);
-            background: rgba(4, 11, 24, 0.88);
-            color: #FFFFFF;
-            font-size: 0.94rem;
-            outline: none;
-        }
+    .brand-sub {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      color: var(--accent-cyan);
+    }
 
-        /* Bottom Floating Dots */
-        .dot-dock {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: rgba(5, 12, 27, 0.92);
-            border: 1px solid rgba(0, 210, 255, 0.35);
-            backdrop-filter: blur(16px);
-            padding: 9px 16px;
-            border-radius: 50px;
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.65);
-            z-index: 90;
-        }
-        .nav-arrow {
-            background: none;
-            border: none;
-            color: var(--cyan);
-            font-size: 1.15rem;
-            font-weight: 800;
-            cursor: pointer;
-            padding: 2px 6px;
-        }
-        .dots-wrap {
-            display: flex;
-            align-items: center;
-            gap: 9px;
-        }
-        .page-dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.25);
-            border: none;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-        .page-dot.active {
-            width: 26px;
-            border-radius: 10px;
-            background: linear-gradient(90deg, var(--royal), var(--cyan));
-            box-shadow: 0 0 12px var(--cyan);
-        }
+    .nav-cta {
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+      color: #041024;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 10px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: transform 0.15s ease;
+    }
 
-        footer {
-            text-align: center;
-            padding: 18px 20px 76px 72px;
-            color: var(--muted);
-            font-size: 0.78rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.06);
-        }
-        footer a {
-            color: var(--cyan);
-            text-decoration: none;
-            cursor: pointer;
-        }
-    </style>
+    .nav-cta:hover {
+      transform: translateY(-1px);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 56px 0 48px;
+      text-align: center;
+      background: radial-gradient(circle at top center, rgba(0, 210, 255, 0.12), transparent 65%);
+    }
+
+    .hero-logo {
+      width: 170px;
+      height: 170px;
+      object-fit: contain;
+      margin: 0 auto 20px;
+      display: block;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(0, 210, 255, 0.12);
+      border: 1px solid var(--border-subtle);
+      color: var(--accent-cyan);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 4.5vw, 3.1rem);
+      font-weight: 800;
+      line-height: 1.18;
+      max-width: 820px;
+      margin: 0 auto 18px;
+      letter-spacing: -0.02em;
+    }
+
+    .highlight {
+      color: var(--accent-cyan);
+    }
+
+    .hero-desc {
+      font-size: 1.08rem;
+      color: var(--text-muted);
+      max-width: 680px;
+      margin: 0 auto 30px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 44px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+      color: #041024;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 14px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-secondary {
+      background: var(--bg-secondary);
+      color: var(--text-main);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 14px 26px;
+      border-radius: 10px;
+      text-decoration: none;
+      border: 1px solid var(--border-subtle);
+    }
+
+    /* Metrics Strip */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .metric-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 20px 16px;
+    }
+
+    .metric-val {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--accent-cyan);
+      line-height: 1.2;
+    }
+
+    .metric-label {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Sections */
+    section {
+      padding: 56px 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 40px;
+    }
+
+    .section-header h2 {
+      font-size: clamp(1.55rem, 3.2vw, 2.2rem);
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .section-header p {
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    /* Services & Warranties Grid */
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 22px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 14px;
+      padding: 26px;
+    }
+
+    .card-tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-cyan);
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 1.22rem;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+
+    .card p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    /* Interactive Revenue Leak Calculator */
+    .simulator-box {
+      background: var(--bg-secondary);
+      border: 1px solid var(--accent-cyan);
+      border-radius: 16px;
+      padding: 30px;
+      max-width: 780px;
+      margin: 0 auto;
+    }
+
+    .slider-row {
+      margin: 20px 0;
+    }
+
+    .slider-label {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 700;
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--accent-cyan);
+      height: 8px;
+      cursor: pointer;
+    }
+
+    .sim-results {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 22px;
+    }
+
+    .sim-stat {
+      background: var(--bg-primary);
+      padding: 18px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .sim-stat span {
+      display: block;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .sim-stat strong {
+      font-size: 1.5rem;
+      margin-top: 4px;
+      display: block;
+    }
+
+    .loss-text {
+      color: var(--danger);
+    }
+
+    .gain-text {
+      color: var(--success);
+    }
+
+    /* Audit Form */
+    .audit-form {
+      max-width: 620px;
+      margin: 0 auto;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      border-radius: 16px;
+      padding: 28px;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: var(--text-muted);
+    }
+
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      background: var(--bg-primary);
+      color: #ffffff;
+      font-size: 1rem;
+    }
+
+    .form-status {
+      display: none;
+      margin-top: 16px;
+      padding: 14px;
+      border-radius: 8px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid var(--success);
+      color: #a7f3d0;
+      font-size: 0.95rem;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-subtle);
+      padding: 34px 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .footer-brand {
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+  </style>
 </head>
 <body>
-    <div class="cyber-grid"></div>
 
-    <!-- Sticky Left-Edge WhatsApp Logo Icon (Always Visible Even on Scroll) -->
-    <a href="https://wa.me/919547772348?text=Hi%20ROGBOLT%20Team%2C%20I%20visited%20rogbolt.com%20and%20would%20like%20to%20discuss%20an%20IT%20%2F%20Cloud%20solution." target="_blank" rel="noopener" class="wa-sticky-float" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
-        <svg width="26" height="26" viewBox="0 0 32 32" fill="currentColor">
-            <path d="M16.004 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.256.59 4.458 1.71 6.398L3.1 29l6.784-1.778a12.74 12.74 0 0 0 6.12 1.56h.006c7.058 0 12.798-5.74 12.798-12.8 0-3.42-1.332-6.636-3.75-9.054A12.715 12.715 0 0 0 16.004 3.2zm0 23.42h-.004a10.6 10.6 0 0 1-5.404-1.48l-.388-.23-4.026 1.056 1.074-3.924-.252-.402a10.576 10.576 0 0 1-1.622-5.64c0-5.856 4.766-10.62 10.626-10.62 2.838 0 5.504 1.106 7.51 3.112a10.553 10.553 0 0 1 3.11 7.512c0 5.858-4.766 10.616-10.624 10.616zm5.826-7.954c-.32-.16-1.888-.932-2.18-1.038-.292-.106-.506-.16-.718.16-.214.32-.826 1.038-1.012 1.252-.186.212-.372.24-.692.08-.32-.16-1.35-.498-2.572-1.588-.95-.848-1.592-1.894-1.778-2.214-.186-.32-.02-.492.14-.652.144-.144.32-.372.48-.558.16-.186.212-.32.32-.532.106-.214.052-.4-.026-.558-.08-.16-.718-1.732-.984-2.372-.26-.622-.524-.538-.718-.548l-.612-.01c-.214 0-.56.08-.852.4-.292.32-1.118 1.092-1.118 2.664s1.144 3.09 1.304 3.304c.16.212 2.252 3.438 5.456 4.822.762.328 1.356.526 1.82.672.764.244 1.46.21 2.01.128.614-.092 1.888-.772 2.154-1.518.266-.746.266-1.384.186-1.518-.08-.132-.292-.212-.612-.372z"/>
-        </svg>
-    </a>
-
-    <!-- Header with Top-Right Three-Dots Menu -->
-    <header>
-        <button class="brand-btn" onclick="switchPage(0)">
-            <img src="logo-icon.png" alt="ROGBOLT Logo" class="header-logo">
-            <div>
-                <div class="brand-title">ROGBOLT</div>
-                <div class="brand-sub">IT &bull; CLOUD &bull; DIGITAL</div>
-            </div>
-        </button>
-
-        <div class="menu-wrapper">
-            <button class="dots-trigger" id="dotsBtn" onclick="toggleMenu(event)" aria-label="Open Navigation Menu" title="Menu">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                    <circle cx="12" cy="5" r="2.2"></circle>
-                    <circle cx="12" cy="12" r="2.2"></circle>
-                    <circle cx="12" cy="19" r="2.2"></circle>
-                </svg>
-            </button>
-
-            <div class="dropdown-menu" id="dropdownMenu" role="menu">
-                <button class="menu-item active" onclick="switchPage(0)">Home</button>
-                <button class="menu-item" onclick="switchPage(1)">Services</button>
-                <button class="menu-item" onclick="switchPage(2)">How We Work &amp; Proof</button>
-                <button class="menu-item" onclick="switchPage(3)">About &amp; Origin</button>
-                <button class="menu-item" onclick="switchPage(4)">Contact</button>
-            </div>
+  <header>
+    <div class="container nav-wrap">
+      <a href="#" class="brand">
+        <img src="logo-icon.webp" alt="ROGBOLT CLOUD Emblem" width="48" height="48">
+        <div class="brand-text">
+          <span class="brand-title">ROGBOLT</span>
+          <span class="brand-sub">CLOUD INFRASTRUCTURE</span>
         </div>
-    </header>
-
-    <main id="swipeStage">
-        <!-- PAGE 0: HOME -->
-        <section class="view-section active" id="page-0">
-            <div class="hero-box">
-                <div class="hero-logo-wrap">
-                    <img src="logo-full.png" alt="ROGBOLT 3D Emblem">
-                </div>
-                <div class="origin-badge">
-                    <span class="dot-pulse"></span>
-                    <span>Anchored like Kjeragbolten &bull; Engineered like a Ragbolt</span>
-                </div>
-                <h1>Practical IT &amp; Cloud Foundations Anchored for Growth</h1>
-                <p class="lead">
-                    We help organizations plan, build, deploy, and maintain dependable web platforms and cloud infrastructure — starting with focused, transparent delivery and scaling alongside your business.
-                </p>
-                <div class="pillars-strip">
-                    <div class="pillar-chip">Cloud &amp; Infrastructure</div>
-                    <div class="pillar-chip">Web &amp; App Development</div>
-                    <div class="pillar-chip">IT Consulting &amp; Support</div>
-                </div>
-                <div class="action-row">
-                    <button class="btn-primary" onclick="switchPage(1)">Explore Services &rarr;</button>
-                </div>
-
-                <!-- Zero-Backend Lead Capture Form -->
-                <div class="lead-capture-box">
-                    <div class="lead-capture-label">Get Priority Onboarding &amp; Cloud Readiness Updates:</div>
-                    <form class="lead-capture-form" onsubmit="quickLeadSubmit(event)">
-                        <input type="email" id="quickLeadEmail" placeholder="Enter your business email..." required>
-                        <button type="submit">Request Early Access</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <!-- PAGE 1: SERVICES (AVAILABLE NOW vs PLANNED ROADMAP) -->
-        <section class="view-section" id="page-1">
-            <div class="section-header">
-                <h2>Services &amp; Capabilities</h2>
-                <p>Clear separation between services we actively deliver today and capabilities we are expanding in phases.</p>
-            </div>
-
-            <div class="sub-divider">Core Services &mdash; Available Now</div>
-            <div class="grid-3">
-                <div class="panel-card">
-                    <div>
-                        <span class="badge-ready">Available Now</span>
-                        <h3>Business Website &amp; Web App Development</h3>
-                        <p>Custom, responsive business websites, interactive web applications, and domain/DNS configuration tailored for startups and SMEs.</p>
-                    </div>
-                    <div class="deliverable-box">
-                        <strong>Deliverables:</strong> Live production site, HTTPS/SSL setup, source code handover &amp; basic maintenance guide.
-                    </div>
-                </div>
-
-                <div class="panel-card">
-                    <div>
-                        <span class="badge-ready">Available Now</span>
-                        <h3>Cloud Hosting &amp; Deployment Setup</h3>
-                        <p>Structured cloud environment setup, static/dynamic app deployment, automated backups, and business email (MX/SPF/DKIM) configuration.</p>
-                    </div>
-                    <div class="deliverable-box">
-                        <strong>Deliverables:</strong> Configured cloud environment, architecture documentation, handover &amp; agreed support window.
-                    </div>
-                </div>
-
-                <div class="panel-card">
-                    <div>
-                        <span class="badge-ready">Available Now</span>
-                        <h3>IT Consulting &amp; Ongoing Support</h3>
-                        <p>Practical technology planning, digital tool selection, and structured maintenance support for small and growing organizations.</p>
-                    </div>
-                    <div class="deliverable-box">
-                        <strong>Deliverables:</strong> Technology roadmap, implementation checklist &amp; scheduled technical support.
-                    </div>
-                </div>
-            </div>
-
-            <div class="sub-divider">Future Expansion &mdash; Planned Roadmap</div>
-            <div class="grid-3">
-                <div class="panel-card">
-                    <div>
-                        <span class="badge-planned">Planned Phase</span>
-                        <h3>Enterprise Cloud Migration</h3>
-                        <p>Multi-environment cloud migration, workload optimization, and managed monitoring as team capacity and partnerships expand.</p>
-                    </div>
-                </div>
-                <div class="panel-card">
-                    <div>
-                        <span class="badge-planned">Planned Phase</span>
-                        <h3>Cybersecurity &amp; Compliance Reviews</h3>
-                        <p>Structured security posture assessments, access hardening, and security awareness frameworks for B2B operations.</p>
-                    </div>
-                </div>
-                <div class="panel-card">
-                    <div>
-                        <span class="badge-planned">Planned Phase</span>
-                        <h3>Data &amp; AI Workflow Automation</h3>
-                        <p>Targeted AI proof-of-concepts, business process automation, and custom API integrations built on validated business needs.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- PAGE 2: HOW WE WORK (ALL 4 STAGES VISIBLE + PROOF OF WORK) -->
-        <section class="view-section" id="page-2">
-            <div class="section-header">
-                <h2>How We Work &amp; Technical Proof</h2>
-                <p>Every engagement follows four clear milestones with transparent deliverables and verifiable architecture.</p>
-            </div>
-
-            <div class="stage-grid">
-                <div class="stage-card">
-                    <div class="stage-num">Stage 01</div>
-                    <h3>1. Discovery</h3>
-                    <p>We map your actual workflow, bottlenecks, and budget constraints — recommending only what solves a real operational need.</p>
-                </div>
-                <div class="stage-card">
-                    <div class="stage-num">Stage 02</div>
-                    <h3>2. Planning &amp; Scope</h3>
-                    <p>Before building, we lock exact deliverables, timeline, and support boundaries in writing so there are zero hidden surprises.</p>
-                </div>
-                <div class="stage-card">
-                    <div class="stage-num">Stage 03</div>
-                    <h3>3. Build &amp; Deploy</h3>
-                    <p>We engineer your web platform or cloud stack with clean code, hardened DNS (SPF/DKIM), and HTTPS/TLS security.</p>
-                </div>
-                <div class="stage-card">
-                    <div class="stage-num">Stage 04</div>
-                    <h3>4. Handover &amp; Support</h3>
-                    <p>You get 100% ownership of your domain, source code, and operational documentation, backed by scheduled support.</p>
-                </div>
-            </div>
-
-            <div class="proof-box">
-                <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;">
-                    <div>
-                        <h3 style="color: var(--cyan); font-size: 1.08rem;">Proof of Work: Reference B2B Cloud &amp; Edge Stack</h3>
-                        <p style="color: var(--muted); font-size: 0.86rem; margin-top: 3px;">Sample deployment blueprint used for ROGBOLT client portals and <strong style="color: #E2E8F0;">rogbolt.com</strong> itself:</p>
-                    </div>
-                    <button class="btn-secondary" style="padding: 8px 14px; font-size: 0.8rem;" onclick="runEdgeTest()">Verify Live Edge Speed</button>
-                </div>
-
-                <div class="arch-diagram">
-                    <div class="arch-node">1. Hardened DNS<span>Cloudflare + DNSSEC</span></div>
-                    <div class="arch-node">2. Edge Security<span>HTTPS / TLS 1.3</span></div>
-                    <div class="arch-node">3. Zero-Bloat App<span>Sub-Second Load</span></div>
-                    <div class="arch-node">4. Verified Mail<span>SPF &bull; DKIM &bull; DMARC</span></div>
-                </div>
-
-                <div id="pingStatus" style="font-size: 0.84rem; color: var(--emerald); font-weight: 700;">
-                    &#9679; Live Platform Benchmark: Lightweight Single-Bundle Architecture (Zero External Render-Blocking Scripts)
-                </div>
-            </div>
-        </section>
-
-        <!-- PAGE 3: ABOUT, BRAND ORIGIN STORY & SEARCH RECOGNITION -->
-        <section class="view-section" id="page-3">
-            <div class="section-header">
-                <h2>About ROGBOLT &amp; Our Origin</h2>
-                <p>Built on permanence, structural strength, and step-by-step execution.</p>
-            </div>
-
-            <div class="origin-card">
-                <div class="origin-chain">Kjeragbolten &rarr; Ragbolt &rarr; ROGBOLT</div>
-                <h3 style="color: #FFFFFF; font-size: 1.22rem; margin-bottom: 10px;">Anchored like Kjeragbolten &bull; Engineered like a Ragbolt</h3>
-                <p style="color: #CBD5E1; font-size: 0.94rem; line-height: 1.68;">
-                    Our name draws inspiration from two symbols of unshakable stability: <strong>Kjeragbolten</strong>, the massive glacial boulder wedged immovably between two towering mountain cliffs in Norway, and the industrial <strong>Ragbolt</strong> — a heavy-duty anchor bolt engineered to lock critical structures permanently into solid rock. <strong>ROGBOLT</strong> carries that exact engineering philosophy into the digital world: building rock-solid IT and cloud foundations that businesses can anchor their growth on with complete confidence.
-                </p>
-            </div>
-
-            <div class="grid-2">
-                <div class="panel-card">
-                    <div>
-                        <h3>Our Vision &amp; Current Stage</h3>
-                        <p>
-                            ROGBOLT is a technology venture founded with a long-term vision to grow into a comprehensive B2B IT and Cloud services partner. Today, we focus on delivering select web, cloud setup, and IT consulting engagements with high accountability, expanding our capabilities progressively as our team and partnerships grow.
-                        </p>
-                    </div>
-                </div>
-                <div class="panel-card">
-                    <div>
-                        <h3>Headquarters &amp; Direct Reach</h3>
-                        <p>
-                            Based in <strong>Sri Vijaya Puram (Port Blair), Andaman &amp; Nicobar Islands, India</strong>. Official Email: <strong>thamarai@rogbolt.com</strong> &bull; Instant Business Chat available via our floating WhatsApp icon.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="policy-note">
-                <strong style="color: var(--cyan);">Brand &amp; Search Recognition Index:</strong> Whether clients search for <strong>ROGBOLT</strong>, <strong>ROGBOLT CLOUD</strong>, or phonetic variations such as <em>Rogbold, Ragbolt, Ragbold, Rockbolt, Rogbolt Cloud, Rogbolt IT, or Rogbolt Andaman</em>, our official home is <strong>https://rogbolt.com</strong>.
-                <div class="alias-tags">
-                    <span class="alias-tag">ROGBOLT</span>
-                    <span class="alias-tag">ROGBOLT CLOUD</span>
-                    <span class="alias-tag">Rogbold</span>
-                    <span class="alias-tag">Ragbolt</span>
-                    <span class="alias-tag">Ragbold</span>
-                    <span class="alias-tag">Rockbolt</span>
-                    <span class="alias-tag">Rogbolt IT</span>
-                    <span class="alias-tag">Rogbolt Andaman</span>
-                    <span class="alias-tag">Rogbolt Port Blair</span>
-                    <span class="alias-tag">Rogbolt Sri Vijaya Puram</span>
-                    <span class="alias-tag">Rogbolt India</span>
-                </div>
-                <div style="margin-top: 12px;">
-                    <strong style="color: var(--cyan);">Privacy &amp; Service Terms:</strong> Information submitted through our contact form, WhatsApp channel, or email (<strong>thamarai@rogbolt.com</strong>) is used solely to evaluate and respond to your inquiry and is never shared with third parties.
-                </div>
-            </div>
-        </section>
-
-        <!-- PAGE 4: CONTACT (FRICTIONLESS DIRECT CHANNELS + FORM) -->
-        <section class="view-section" id="page-4">
-            <div class="contact-card">
-                <div style="text-align: center; margin-bottom: 18px;">
-                    <h2 style="font-size: 1.65rem; margin-bottom: 6px;">Start a Direct Conversation</h2>
-                    <p style="color: var(--muted); font-size: 0.9rem;">Official Email: <strong style="color: var(--cyan);">thamarai@rogbolt.com</strong></p>
-                </div>
-
-                <div class="quick-channels">
-                    <a href="https://wa.me/919547772348?text=Hi%20ROGBOLT%20Team%2C%20I%20visited%20rogbolt.com%20and%20would%20like%20to%20discuss%20an%20IT%20%2F%20Cloud%20project." target="_blank" rel="noopener" class="btn-whatsapp">
-                        &#128172; Chat on WhatsApp
-                    </a>
-                    <a href="mailto:thamarai@rogbolt.com?subject=Discovery%20Call%20Request%20-%20ROGBOLT" class="btn-secondary" style="padding: 11px 18px; font-size: 0.88rem;">
-                        &#128197; Request 15-Min Discovery Call
-                    </a>
-                </div>
-
-                <form onsubmit="sendInquiry(event)">
-                    <div class="form-group">
-                        <label>Your Name</label>
-                        <input type="text" id="senderName" placeholder="Full Name" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Company / Organization Name</label>
-                        <input type="text" id="senderOrg" placeholder="e.g., Acme Enterprises" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Service Needed</label>
-                        <select id="serviceType">
-                            <option value="Business Website / Web App">Business Website / Web App</option>
-                            <option value="Cloud Setup & Deployment">Cloud Setup &amp; Deployment</option>
-                            <option value="IT Consulting & Support">IT Consulting &amp; Support</option>
-                            <option value="General B2B Partnership">General B2B Partnership</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label>Brief Description of Your Requirement</label>
-                        <textarea id="senderMsg" rows="3" placeholder="Describe your goals, timeline, or current setup..." required></textarea>
-                    </div>
-                    <button type="submit" class="btn-primary" style="width: 100%;">Send Project Brief via Email &rarr;</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <!-- Bottom Floating Dot & Arrow Navigator -->
-    <div class="dot-dock" aria-label="Slide Navigation Dots">
-        <button class="nav-arrow" onclick="stepPage(-1)" title="Previous">&lsaquo;</button>
-        <div class="dots-wrap">
-            <button class="page-dot active" onclick="switchPage(0)" aria-label="Home"></button>
-            <button class="page-dot" onclick="switchPage(1)" aria-label="Services"></button>
-            <button class="page-dot" onclick="switchPage(2)" aria-label="How We Work"></button>
-            <button class="page-dot" onclick="switchPage(3)" aria-label="About & Origin"></button>
-            <button class="page-dot" onclick="switchPage(4)" aria-label="Contact"></button>
-        </div>
-        <button class="nav-arrow" onclick="stepPage(1)" title="Next">&rsaquo;</button>
+      </a>
+      <a href="#audit" class="nav-cta">Free Speed Audit</a>
     </div>
+  </header>
 
-    <footer>
-        &copy; 2026 <strong>ROGBOLT</strong> &bull; Sri Vijaya Puram (Port Blair), Andaman &amp; Nicobar Islands, India &bull; <a onclick="switchPage(3)">Origin Story &amp; Terms</a>
-    </footer>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" style="border-top: none;">
+      <div class="container">
+        <img src="logo-full.webp" alt="ROGBOLT CLOUD Official Logo" class="hero-logo" width="170" height="170">
+        <div class="badge">SRI VIJAYA PURAM (PORT BLAIR) • ENTERPRISE CLOUD PARTNER</div>
+        <h1>Stop Losing Direct Bookings to <span class="highlight">Slow, Unsecured</span> Websites.</h1>
+        <p class="hero-desc">
+          We engineer blazing-fast, sub-2-second websites and Cloudflare-hardened booking architectures for leading resorts, hospitality groups, and enterprises across the Andaman &amp; Nicobar Islands.
+        </p>
+        <div class="hero-actions">
+          <a href="#audit" class="btn-primary">Request Pilot Performance Audit</a>
+          <a href="#warranties" class="btn-secondary">Our Written Warranties</a>
+        </div>
 
-    <script>
-        let currentIndex = 0;
-        const totalPages = 5;
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-val">&lt; 2.0s</div>
+            <div class="metric-label">Mobile Load Speed Target</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val">99.9%</div>
+            <div class="metric-label">Cloudflare Edge Uptime</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val">4-Hour</div>
+            <div class="metric-label">Local Port Blair Response SLA</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-val">100%</div>
+            <div class="metric-label">Client Code &amp; Domain Ownership</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        function toggleMenu(e) {
-            e.stopPropagation();
-            const menu = document.getElementById('dropdownMenu');
-            const btn = document.getElementById('dotsBtn');
-            menu.classList.toggle('show');
-            btn.classList.toggle('open');
-        }
+    <!-- Interactive Revenue Leak Simulator -->
+    <section id="simulator">
+      <div class="container">
+        <div class="section-header">
+          <h2>How Website Speed Impacts Direct Revenue</h2>
+          <p>Every extra second a tourist waits on mobile pushes them toward 20% commission third-party booking portals.</p>
+        </div>
 
-        document.addEventListener('click', () => {
-            document.getElementById('dropdownMenu').classList.remove('show');
-            document.getElementById('dotsBtn').classList.remove('open');
+        <div class="simulator-box">
+          <div class="slider-row">
+            <div class="slider-label">
+              <span>Current Website Mobile Load Time:</span>
+              <span id="secDisplay" class="highlight">10.0 Seconds</span>
+            </div>
+            <input type="range" id="loadSlider" min="2" max="15" step="0.5" value="10" aria-label="Website load time in seconds">
+          </div>
+
+          <div class="sim-results">
+            <div class="sim-stat">
+              <span>Estimated Mobile Visitor Drop-Off</span>
+              <strong id="dropOffVal" class="loss-text">53% Visitors Lost</strong>
+            </div>
+            <div class="sim-stat">
+              <span>With ROGBOLT Edge Architecture (&lt; 2.0s)</span>
+              <strong class="gain-text">Up to 35% More Direct Bookings</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enterprise Services -->
+    <section id="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Enterprise Web &amp; Cloud Solutions</h2>
+          <p>Built from the ground up with zero bloated templates, modern WebP assets, and edge caching.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="card">
+            <span class="card-tag">01 • Performance Engineering</span>
+            <h3>Sub-2-Second Speed Upgrades</h3>
+            <p>We eliminate heavy render-blocking scripts and unoptimized multi-megabyte images so your resort or company website opens instantaneously even on 4G island networks.</p>
+          </div>
+          <div class="card">
+            <span class="card-tag">02 • Conversion Architecture</span>
+            <h3>Zero-Commission Booking Funnels</h3>
+            <p>Seamless mobile-first room reservation flows, instant WhatsApp concierge triggers, and dynamic QR menus that keep guest revenue directly in your account.</p>
+          </div>
+          <div class="card">
+            <span class="card-tag">03 • Edge Security &amp; DNS</span>
+            <h3>Hardened SSL &amp; DDoS Protection</h3>
+            <p>Full Cloudflare edge deployment with strict HTTPS encryption, eliminating browser "Not Secure" warnings and protecting customer inquiries around the clock.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Written Warranties -->
+    <section id="warranties">
+      <div class="container">
+        <div class="section-header">
+          <h2>Four Written Technical Warranties</h2>
+          <p>We back our engineering in writing before full project development begins.</p>
+        </div>
+
+        <div class="grid-2">
+          <div class="card">
+            <span class="card-tag">Warranty 01</span>
+            <h3>Milestone Design Satisfaction</h3>
+            <p>Review and approve the live speed and layout blueprint for your property before committing to full-scale rollout.</p>
+          </div>
+          <div class="card">
+            <span class="card-tag">Warranty 02</span>
+            <h3>90-Day Bug-Free Technical Warranty</h3>
+            <p>Any broken link, mobile layout shift, or technical glitch within 90 days of launch is resolved immediately at zero cost.</p>
+          </div>
+          <div class="card">
+            <span class="card-tag">Warranty 03</span>
+            <h3>Zero Vendor Lock-In (100% Ownership)</h3>
+            <p>You retain complete administrative keys to your domain, cloud infrastructure, and source code from day one.</p>
+          </div>
+          <div class="card">
+            <span class="card-tag">Warranty 04</span>
+            <h3>4-Hour Local Emergency SLA</h3>
+            <p>Based directly in Sri Vijaya Puram—no waiting days for mainland support desks when critical updates are needed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pilot Audit Request -->
+    <section id="audit">
+      <div class="container">
+        <div class="section-header">
+          <h2>Schedule a Pilot Technical Audit</h2>
+          <p>Request a complimentary mobile speed and security diagnostic for your business website.</p>
+        </div>
+
+        <form class="audit-form" id="auditForm">
+          <div class="form-group">
+            <label for="bizName">Company / Resort Name</label>
+            <input type="text" id="bizName" required placeholder="e.g., TSG Hotels & Resorts">
+          </div>
+          <div class="form-group">
+            <label for="siteUrl">Current Website URL</label>
+            <input type="text" id="siteUrl" required placeholder="e.g., tsgresorts.in">
+          </div>
+          <div class="form-group">
+            <label for="serviceType">Primary Objective</label>
+            <select id="serviceType">
+              <option value="Speed Optimization">Sub-2-Second Speed &amp; Core Web Vitals Upgrade</option>
+              <option value="Full Redesign">Full Enterprise Website &amp; Direct Booking Funnel</option>
+              <option value="Cloud Security">Cloudflare SSL Security &amp; DNS Migration</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-primary" style="width: 100%;">Generate Audit Request</button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-brand">ROGBOLT CLOUD</div>
+      <p>Enterprise Web Architecture &amp; Cloud Infrastructure • Sri Vijaya Puram (Port Blair), Andaman &amp; Nicobar Islands</p>
+      <p style="margin-top: 8px; font-size: 0.8rem;">&copy; 2026 ROGBOLT CLOUD. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const slider = document.getElementById('loadSlider');
+      const secDisplay = document.getElementById('secDisplay');
+      const dropOffVal = document.getElementById('dropOffVal');
+
+      if (slider) {
+        slider.addEventListener('input', function () {
+          const val = parseFloat(this.value);
+          secDisplay.textContent = val.toFixed(1) + ' Seconds';
+          const drop = Math.min(75, Math.max(8, Math.round((val - 1.5) * 6.2)));
+          dropOffVal.textContent = drop + '% Visitors Lost';
         });
+      }
 
-        function switchPage(index) {
-            currentIndex = index;
-            document.querySelectorAll('.view-section').forEach((sec, i) => {
-                sec.classList.toggle('active', i === index);
-            });
-            document.querySelectorAll('.menu-item').forEach((item, i) => {
-                item.classList.toggle('active', i === index);
-            });
-            document.querySelectorAll('.page-dot').forEach((dot, i) => {
-                dot.classList.toggle('active', i === index);
-            });
-            document.getElementById('dropdownMenu').classList.remove('show');
-            document.getElementById('dotsBtn').classList.remove('open');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-
-        function stepPage(delta) {
-            let next = (currentIndex + delta + totalPages) % totalPages;
-            switchPage(next);
-        }
-
-        // Touch Swipe Support
-        let touchStartX = 0;
-        document.addEventListener('touchstart', e => { touchStartX = e.changedTouches[0].screenX; }, { passive: true });
-        document.addEventListener('touchend', e => {
-            const diff = touchStartX - e.changedTouches[0].screenX;
-            if (Math.abs(diff) > 65) {
-                stepPage(diff > 0 ? 1 : -1);
-            }
-        }, { passive: true });
-
-        // Zero-Backend Lead Capture Handler
-        function quickLeadSubmit(e) {
-            e.preventDefault();
-            const email = encodeURIComponent(document.getElementById('quickLeadEmail').value);
-            window.location.href = `mailto:thamarai@rogbolt.com?subject=Early%20Access%20%26%20Priority%20Onboarding%20Request%20-%20ROGBOLT&body=Hello%20ROGBOLT%20Team%2C%0A%0APlease%20keep%20me%20updated%20and%20notify%20me%20for%20priority%20IT%20%26%20Cloud%20onboarding.%0A%0ABusiness%20Email%3A%20${email}%0A%0AThank%20you.`;
-        }
-
-        function runEdgeTest() {
-            const status = document.getElementById('pingStatus');
-            status.style.color = '#38BDF8';
-            status.textContent = '⏳ Measuring live response latency...';
-            const t0 = performance.now();
-            fetch(window.location.href, { cache: 'no-store' })
-                .then(() => {
-                    const ms = Math.max(12, Math.round(performance.now() - t0));
-                    status.style.color = '#10B981';
-                    status.textContent = `✔ Verified Live Response: ${ms}ms • HTTPS/TLS 1.3 Active • Zero Render-Blocking Assets`;
-                })
-                .catch(() => {
-                    status.style.color = '#10B981';
-                    status.textContent = '✔ Verified Live Response: HTTPS/TLS 1.3 Active';
-                });
-        }
-
-        function sendInquiry(e) {
-            e.preventDefault();
-            const name = encodeURIComponent(document.getElementById('senderName').value);
-            const org = encodeURIComponent(document.getElementById('senderOrg').value);
-            const service = encodeURIComponent(document.getElementById('serviceType').value);
-            const msg = encodeURIComponent(document.getElementById('senderMsg').value);
-            window.location.href = `mailto:thamarai@rogbolt.com?subject=${service}%20Inquiry%20-%20${org}&body=Name:%20${name}%0ACompany:%20${org}%0AService:%20${service}%0A%0ARequirement:%0A${msg}`;
-        }
-    </script>
+      const form = document.getElementById('auditForm');
+      const statusBox = document.getElementById('formStatus');
+      if (form) {
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          const biz = document.getElementById('bizName').value.trim();
+          const url = document.getElementById('siteUrl').value.trim();
+          statusBox.style.display = 'block';
+          statusBox.innerHTML = '<strong>Audit Logged for ' + biz.replace(/</g, '&lt;') + ':</strong> ROGBOLT Engineering (Sri Vijaya Puram) has queued <em>' + url.replace(/</g, '&lt;') + '</em> for Core Web Vitals &amp; SSL diagnostics.';
+        });
+      }
+    })();
+  </script>
 </body>
 </html>
