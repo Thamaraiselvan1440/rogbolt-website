@@ -19,19 +19,19 @@
     <link rel="shortcut icon" href="logo-icon.webp" type="image/webp">
     <link rel="apple-touch-icon" href="logo-icon.webp">
 
-    <!-- Open Graph / Social Share SEO -->
+    <!-- Open Graph / Social Share SEO (PNG Fallback for Universal WhatsApp/LinkedIn Previews) -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="ROGBOLT">
     <meta property="og:title" content="ROGBOLT | Anchored like Kjeragbolten • Engineered like a Ragbolt">
-    <meta property="og:description" content="Rock-solid B2B IT, Cloud setup, web engineering, and digital infrastructure built for permanence and growth.">
+    <meta property="og:description" content="Rock-solid B2B IT, Cloud setup, sub-2-second web engineering, and digital infrastructure built for permanence and growth.">
     <meta property="og:url" content="https://rogbolt.com/">
-    <meta property="og:image" content="https://rogbolt.com/logo-full.webp">
+    <meta property="og:image" content="https://rogbolt.com/logo-full.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="ROGBOLT | B2B IT, Cloud &amp; Digital Infrastructure">
     <meta name="twitter:description" content="Anchored like Kjeragbolten • Engineered like a Ragbolt.">
-    <meta name="twitter:image" content="https://rogbolt.com/logo-full.webp">
+    <meta name="twitter:image" content="https://rogbolt.com/logo-full.png">
 
-    <!-- Organization Structured Data with 30+ Brand & Phonetic Variations for Google Search -->
+    <!-- Organization Structured Data with Brand & Phonetic Variations for Google Search -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -85,7 +85,7 @@
         "addressCountry": "IN"
       },
       "areaServed": ["Sri Vijaya Puram", "Port Blair", "Andaman and Nicobar Islands", "India", "Worldwide"],
-      "description": "Anchored like Kjeragbolten, engineered like a Ragbolt. ROGBOLT (also referenced as Rogbold, Ragbolt, and Rogbolt Cloud) delivers rock-solid B2B IT, Cloud setup, web engineering, and digital infrastructure."
+      "description": "Anchored like Kjeragbolten, engineered like a Ragbolt. ROGBOLT delivers rock-solid B2B IT, Cloud setup, sub-2-second web engineering, and digital infrastructure."
     }
     </script>
 
@@ -418,9 +418,9 @@
             color: #34D399;
             border: 1px solid rgba(16, 185, 129, 0.45);
             font-weight: 700;
-            padding: 13px 22px;
+            padding: 12px 20px;
             border-radius: 12px;
-            font-size: 0.93rem;
+            font-size: 0.9rem;
             cursor: pointer;
             text-decoration: none;
             display: inline-flex;
@@ -429,7 +429,7 @@
             gap: 8px;
         }
 
-        /* Zero-Backend Lead Capture Bar */
+        /* Lead Capture Bar */
         .lead-capture-box {
             background: #081328;
             border: 1px solid rgba(0, 210, 255, 0.28);
@@ -575,7 +575,7 @@
             color: var(--cyan);
         }
 
-        /* All 4 Stages Visible Grid + Proof of Work Architecture */
+        /* All 4 Stages Visible Grid + Measurable Warranties + Proof of Work */
         .stage-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -608,7 +608,7 @@
         }
         .warranty-strip {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 12px;
             margin-bottom: 22px;
         }
@@ -616,15 +616,16 @@
             background: rgba(16, 185, 129, 0.08);
             border: 1px solid rgba(16, 185, 129, 0.3);
             border-radius: 12px;
-            padding: 12px 14px;
+            padding: 14px;
             font-size: 0.82rem;
             color: #E2E8F0;
+            line-height: 1.5;
         }
         .warranty-pill strong {
             display: block;
             color: #34D399;
-            font-size: 0.86rem;
-            margin-bottom: 3px;
+            font-size: 0.88rem;
+            margin-bottom: 4px;
         }
         .proof-box {
             background: #061022;
@@ -691,26 +692,12 @@
             border: 1px solid rgba(255, 255, 255, 0.08);
             border-radius: 14px;
             padding: 18px 20px;
-            font-size: 0.82rem;
+            font-size: 0.84rem;
             color: var(--muted);
-            line-height: 1.6;
-        }
-        .alias-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            margin-top: 10px;
-        }
-        .alias-tag {
-            background: rgba(0, 210, 255, 0.08);
-            border: 1px solid rgba(0, 210, 255, 0.2);
-            color: #94A3B8;
-            padding: 3px 9px;
-            border-radius: 6px;
-            font-size: 0.73rem;
+            line-height: 1.65;
         }
 
-        /* Contact Form & Direct Channels */
+        /* Contact Form & Copy Email Box */
         .contact-card {
             background: var(--bg-panel);
             border: 1px solid var(--border);
@@ -718,6 +705,35 @@
             padding: 28px 24px;
             max-width: 620px;
             margin: 0 auto;
+        }
+        .email-copy-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            background: #040B18;
+            border: 1px solid rgba(0, 210, 255, 0.3);
+            border-radius: 12px;
+            padding: 10px 14px;
+            margin: 12px auto 18px;
+            max-width: 420px;
+        }
+        .email-copy-bar span {
+            color: var(--cyan);
+            font-weight: 700;
+            font-size: 0.92rem;
+            word-break: break-all;
+        }
+        .copy-btn {
+            background: rgba(0, 210, 255, 0.16);
+            color: #FFFFFF;
+            border: 1px solid rgba(0, 210, 255, 0.4);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            cursor: pointer;
+            white-space: nowrap;
         }
         .quick-channels {
             display: flex;
@@ -746,6 +762,17 @@
             color: #FFFFFF;
             font-size: 0.94rem;
             outline: none;
+        }
+        .status-banner {
+            display: none;
+            margin-top: 14px;
+            padding: 12px 14px;
+            border-radius: 10px;
+            background: rgba(16, 185, 129, 0.14);
+            border: 1px solid rgba(16, 185, 129, 0.45);
+            color: #A7F3D0;
+            font-size: 0.86rem;
+            line-height: 1.5;
         }
 
         /* Bottom Floating Dots */
@@ -812,7 +839,7 @@
 <body>
     <div class="cyber-grid"></div>
 
-    <!-- Sticky Left-Edge WhatsApp Logo Icon (Always Visible Even on Scroll) -->
+    <!-- Sticky Left-Edge Floating WhatsApp Logo Icon -->
     <a href="https://wa.me/919547772348?text=Hi%20ROGBOLT%20Team%2C%20I%20visited%20rogbolt.com%20and%20would%20like%20to%20discuss%20an%20IT%20%2F%20Cloud%20solution." target="_blank" rel="noopener" class="wa-sticky-float" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
         <svg width="26" height="26" viewBox="0 0 32 32" fill="currentColor">
             <path d="M16.004 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.256.59 4.458 1.71 6.398L3.1 29l6.784-1.778a12.74 12.74 0 0 0 6.12 1.56h.006c7.058 0 12.798-5.74 12.798-12.8 0-3.42-1.332-6.636-3.75-9.054A12.715 12.715 0 0 0 16.004 3.2zm0 23.42h-.004a10.6 10.6 0 0 1-5.404-1.48l-.388-.23-4.026 1.056 1.074-3.924-.252-.402a10.576 10.576 0 0 1-1.622-5.64c0-5.856 4.766-10.62 10.626-10.62 2.838 0 5.504 1.106 7.51 3.112a10.553 10.553 0 0 1 3.11 7.512c0 5.858-4.766 10.616-10.624 10.616zm5.826-7.954c-.32-.16-1.888-.932-2.18-1.038-.292-.106-.506-.16-.718.16-.214.32-.826 1.038-1.012 1.252-.186.212-.372.24-.692.08-.32-.16-1.35-.498-2.572-1.588-.95-.848-1.592-1.894-1.778-2.214-.186-.32-.02-.492.14-.652.144-.144.32-.372.48-.558.16-.186.212-.32.32-.532.106-.214.052-.4-.026-.558-.08-.16-.718-1.732-.984-2.372-.26-.622-.524-.538-.718-.548l-.612-.01c-.214 0-.56.08-.852.4-.292.32-1.118 1.092-1.118 2.664s1.144 3.09 1.304 3.304c.16.212 2.252 3.438 5.456 4.822.762.328 1.356.526 1.82.672.764.244 1.46.21 2.01.128.614-.092 1.888-.772 2.154-1.518.266-.746.266-1.384.186-1.518-.08-.132-.292-.212-.612-.372z"/>
@@ -842,7 +869,7 @@
                 <button class="menu-item active" onclick="switchPage(0)">Home</button>
                 <button class="menu-item" onclick="switchPage(1)">Services</button>
                 <button class="menu-item" onclick="switchPage(2)">How We Work &amp; Proof</button>
-                <button class="menu-item" onclick="switchPage(3)">About &amp; Origin</button>
+                <button class="menu-item" onclick="switchPage(3)">About &amp; Terms</button>
                 <button class="menu-item" onclick="switchPage(4)">Contact</button>
             </div>
         </div>
@@ -861,25 +888,26 @@
                 </div>
                 <h1>Practical IT &amp; Cloud Foundations Anchored for Growth</h1>
                 <p class="lead">
-                    We help organizations plan, build, deploy, and maintain dependable web platforms and cloud infrastructure — starting with focused, transparent delivery and scaling alongside your business.
+                    We help organizations plan, build, deploy, and maintain dependable sub-2-second web platforms and Cloudflare-hardened infrastructure — starting with focused, transparent delivery and scaling alongside your business.
                 </p>
                 <div class="pillars-strip">
-                    <div class="pillar-chip">Cloud &amp; Infrastructure</div>
-                    <div class="pillar-chip">Web &amp; App Development</div>
-                    <div class="pillar-chip">IT Consulting &amp; Support</div>
+                    <div class="pillar-chip">Cloud &amp; Edge Security</div>
+                    <div class="pillar-chip">Sub-2s Web Engineering</div>
+                    <div class="pillar-chip">IT Consulting &amp; 4-Hr SLA</div>
                 </div>
                 <div class="action-row">
                     <button class="btn-primary" onclick="switchPage(1)">Explore Services &rarr;</button>
                     <button class="btn-secondary" onclick="switchPage(2)">Technical Proof &amp; Warranties</button>
                 </div>
 
-                <!-- Zero-Backend Lead Capture Form -->
+                <!-- Reliable Lead Capture Bar (Web3Forms + Direct WhatsApp Fallback) -->
                 <div class="lead-capture-box">
-                    <div class="lead-capture-label">Get Priority Onboarding &amp; Cloud Readiness Updates:</div>
+                    <div class="lead-capture-label">Request a Free Website Speed &amp; Security Audit:</div>
                     <form class="lead-capture-form" onsubmit="quickLeadSubmit(event)">
-                        <input type="email" id="quickLeadEmail" placeholder="Enter your business email..." required>
-                        <button type="submit">Request Early Access</button>
+                        <input type="text" id="quickLeadInput" placeholder="Enter your website URL or email..." required>
+                        <button type="submit">Request Audit</button>
                     </form>
+                    <div id="quickLeadStatus" class="status-banner"></div>
                 </div>
             </div>
         </section>
@@ -896,22 +924,22 @@
                 <div class="panel-card">
                     <div>
                         <span class="badge-ready">Available Now</span>
-                        <h3>Business Website &amp; Web App Development</h3>
-                        <p>Custom, sub-2-second responsive business websites, zero-commission booking flows, and domain/DNS configuration tailored for resorts, startups, and SMEs.</p>
+                        <h3>Sub-2-Second Web &amp; Booking Development</h3>
+                        <p>Custom, mobile-first business websites, zero-commission reservation flows, and WebP asset optimization tailored for resorts, startups, and SMEs.</p>
                     </div>
                     <div class="deliverable-box">
-                        <strong>Deliverables:</strong> Live production site, HTTPS/SSL setup, WebP optimization, source code handover &amp; maintenance guide.
+                        <strong>Deliverables:</strong> Live production site (&lt;2s load), HTTPS/SSL setup, source code handover &amp; maintenance guide.
                     </div>
                 </div>
 
                 <div class="panel-card">
                     <div>
                         <span class="badge-ready">Available Now</span>
-                        <h3>Cloud Hosting &amp; Deployment Setup</h3>
-                        <p>Structured Cloudflare edge setup, static/dynamic app deployment, automated backups, and business email (MX/SPF/DKIM) configuration.</p>
+                        <h3>Cloudflare Edge &amp; Email Setup</h3>
+                        <p>Structured Cloudflare CDN &amp; WAF deployment, DNSSEC hardening, automated backups, and business email (MX/SPF/DKIM/DMARC) configuration.</p>
                     </div>
                     <div class="deliverable-box">
-                        <strong>Deliverables:</strong> Configured cloud environment, architecture documentation, handover &amp; agreed support window.
+                        <strong>Deliverables:</strong> Hardened cloud DNS, architecture documentation, full admin keys &amp; support window.
                     </div>
                 </div>
 
@@ -919,10 +947,10 @@
                     <div>
                         <span class="badge-ready">Available Now</span>
                         <h3>IT Consulting &amp; Ongoing Support</h3>
-                        <p>Practical technology planning, Core Web Vitals speed audits, and structured maintenance support for small and growing organizations.</p>
+                        <p>Core Web Vitals speed diagnostics, digital tool planning, and structured maintenance support for growing organizations in Sri Vijaya Puram.</p>
                     </div>
                     <div class="deliverable-box">
-                        <strong>Deliverables:</strong> Technical audit report, implementation checklist &amp; 4-hour local emergency support SLA.
+                        <strong>Deliverables:</strong> Technical audit report, implementation roadmap &amp; 4-hour local emergency support SLA.
                     </div>
                 </div>
             </div>
@@ -947,17 +975,17 @@
                     <div>
                         <span class="badge-planned">Planned Phase</span>
                         <h3>Data &amp; AI Workflow Automation</h3>
-                        <p>Targeted AI proof-of-concepts, business process automation, and custom API integrations built on validated business needs.</p>
+                        <p>Targeted AI proof-of-concepts, WhatsApp booking bots, and custom API integrations built on validated business needs.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- PAGE 2: HOW WE WORK (ALL 4 STAGES VISIBLE + WRITTEN WARRANTIES + PROOF OF WORK) -->
+        <!-- PAGE 2: HOW WE WORK (ALL 4 STAGES + MEASURABLE WARRANTIES + PROOF OF WORK) -->
         <section class="view-section" id="page-2">
             <div class="section-header">
                 <h2>How We Work &amp; Technical Proof</h2>
-                <p>Every engagement follows four clear milestones backed by written technical warranties.</p>
+                <p>Every engagement follows four clear milestones backed by measurable, written technical warranties.</p>
             </div>
 
             <div class="stage-grid">
@@ -969,7 +997,7 @@
                 <div class="stage-card">
                     <div class="stage-num">Stage 02</div>
                     <h3>2. Planning &amp; Scope</h3>
-                    <p>Before building, we lock exact deliverables, timeline, and written technical warranties so there are zero hidden surprises.</p>
+                    <p>Before building, we lock exact page count, deliverables, timeline, and written warranties in writing so there are zero hidden surprises.</p>
                 </div>
                 <div class="stage-card">
                     <div class="stage-num">Stage 03</div>
@@ -983,23 +1011,23 @@
                 </div>
             </div>
 
-            <!-- Four Written Technical Warranties -->
+            <!-- Measurable Written Technical Warranties -->
             <div class="warranty-strip">
                 <div class="warranty-pill">
                     <strong>&#10003; Milestone Design Approval</strong>
-                    Review &amp; approve the live design blueprint before full rollout.
+                    Review &amp; approve the live staging prototype before paying final balance or going live.
                 </div>
                 <div class="warranty-pill">
                     <strong>&#10003; 90-Day Bug-Free Warranty</strong>
-                    Any technical issue or broken link fixed free within 90 days.
+                    All code defects, layout shifts, or broken links fixed free for 90 days post-launch (excludes new feature additions).
                 </div>
                 <div class="warranty-pill">
                     <strong>&#10003; 100% Client Ownership</strong>
-                    Full master keys to domain, code &amp; cloud — zero vendor lock-in.
+                    Full master credentials to domain, GitHub/source code &amp; Cloudflare — zero vendor lock-in.
                 </div>
                 <div class="warranty-pill">
-                    <strong>&#10003; 4-Hour Local SLA</strong>
-                    Direct response from Sri Vijaya Puram (Port Blair) engineering.
+                    <strong>&#10003; 4-Hour Local Emergency SLA</strong>
+                    Guaranteed response within 4 hours (Mon–Sat, 9 AM – 9 PM IST) for critical downtime in Port Blair.
                 </div>
             </div>
 
@@ -1007,7 +1035,7 @@
                 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;">
                     <div>
                         <h3 style="color: var(--cyan); font-size: 1.08rem;">Proof of Work: Reference B2B Cloud &amp; Edge Stack</h3>
-                        <p style="color: var(--muted); font-size: 0.86rem; margin-top: 3px;">Sample deployment blueprint used for ROGBOLT client portals and <strong style="color: #E2E8F0;">rogbolt.com</strong> itself:</p>
+                        <p style="color: var(--muted); font-size: 0.86rem; margin-top: 3px;">Live architecture running <strong style="color: #E2E8F0;">rogbolt.com</strong> (Verified 100/100 Google PageSpeed Score):</p>
                     </div>
                     <button class="btn-secondary" style="padding: 8px 14px; font-size: 0.8rem;" onclick="runEdgeTest()">Verify Live Edge Speed</button>
                 </div>
@@ -1015,7 +1043,7 @@
                 <div class="arch-diagram">
                     <div class="arch-node">1. Hardened DNS<span>Cloudflare + DNSSEC</span></div>
                     <div class="arch-node">2. Edge Security<span>HTTPS / TLS 1.3</span></div>
-                    <div class="arch-node">3. WebP + Zero-Bloat<span>Sub-2-Second Load</span></div>
+                    <div class="arch-node">3. WebP + Zero-Bloat<span>100/100 PageSpeed</span></div>
                     <div class="arch-node">4. Verified Mail<span>SPF &bull; DKIM &bull; DMARC</span></div>
                 </div>
 
@@ -1025,11 +1053,11 @@
             </div>
         </section>
 
-        <!-- PAGE 3: ABOUT, BRAND ORIGIN STORY & SEARCH RECOGNITION -->
+        <!-- PAGE 3: ABOUT, BRAND ORIGIN STORY & LEGAL TERMS -->
         <section class="view-section" id="page-3">
             <div class="section-header">
-                <h2>About ROGBOLT &amp; Our Origin</h2>
-                <p>Built on permanence, structural strength, and step-by-step execution.</p>
+                <h2>About ROGBOLT &amp; Service Terms</h2>
+                <p>Built on permanence, structural strength, and transparent accountability.</p>
             </div>
 
             <div class="origin-card">
@@ -1045,7 +1073,7 @@
                     <div>
                         <h3>Our Vision &amp; Current Stage</h3>
                         <p>
-                            ROGBOLT is a technology venture founded with a long-term vision to grow into a comprehensive B2B IT and Cloud services partner. Today, we focus on delivering select web, cloud setup, and IT consulting engagements with high accountability, expanding our capabilities progressively as our team and partnerships grow.
+                            ROGBOLT is a technology venture founded by Tamarai Selvan with a long-term vision to serve as a premier B2B IT and Cloud infrastructure partner. Today, we deliver high-speed web engineering, Cloudflare security setup, and IT consulting with direct founder accountability.
                         </p>
                     </div>
                 </div>
@@ -1053,73 +1081,81 @@
                     <div>
                         <h3>Headquarters &amp; Direct Reach</h3>
                         <p>
-                            Based in <strong>Sri Vijaya Puram (Port Blair), Andaman &amp; Nicobar Islands, India</strong>. Official Email: <strong>thamarai@rogbolt.com</strong> &bull; Instant Business Chat available via our floating WhatsApp icon.
+                            Based in <strong>Sri Vijaya Puram (Port Blair), Andaman &amp; Nicobar Islands, India</strong>.<br>
+                            Official Email: <strong>thamarai@rogbolt.com</strong><br>
+                            Direct Business Line / WhatsApp: <strong>+91 95477 72348</strong>
                         </p>
                     </div>
                 </div>
             </div>
 
             <div class="policy-note">
-                <strong style="color: var(--cyan);">Brand &amp; Search Recognition Index:</strong> Whether clients search for <strong>ROGBOLT</strong>, <strong>ROGBOLT CLOUD</strong>, or phonetic variations such as <em>Rogbold, Ragbolt, Ragbold, Rockbolt, Rogbolt Cloud, Rogbolt IT, or Rogbolt Andaman</em>, our official home is <strong>https://rogbolt.com</strong>.
-                <div class="alias-tags">
-                    <span class="alias-tag">ROGBOLT</span>
-                    <span class="alias-tag">ROGBOLT CLOUD</span>
-                    <span class="alias-tag">Rogbold</span>
-                    <span class="alias-tag">Ragbolt</span>
-                    <span class="alias-tag">Ragbold</span>
-                    <span class="alias-tag">Rockbolt</span>
-                    <span class="alias-tag">Rogbolt IT</span>
-                    <span class="alias-tag">Rogbolt Andaman</span>
-                    <span class="alias-tag">Rogbolt Port Blair</span>
-                    <span class="alias-tag">Rogbolt Sri Vijaya Puram</span>
-                    <span class="alias-tag">Rogbolt India</span>
-                </div>
-                <div style="margin-top: 12px;">
-                    <strong style="color: var(--cyan);">Privacy &amp; Service Terms:</strong> Information submitted through our contact form, WhatsApp channel, or email (<strong>thamarai@rogbolt.com</strong>) is used solely to evaluate and respond to your inquiry and is never shared with third parties.
-                </div>
+                <p style="margin-bottom: 10px;">
+                    <strong style="color: var(--cyan);">1. Privacy Policy:</strong> Information submitted through our website forms, WhatsApp channel, or email (<strong>thamarai@rogbolt.com</strong>) is used strictly to evaluate and respond to your technical inquiry. We never sell, rent, or share client contact details or audit data with third parties.
+                </p>
+                <p style="margin-bottom: 10px;">
+                    <strong style="color: var(--cyan);">2. Terms of Service &amp; Deliverables:</strong> All custom projects begin upon written Scope of Work (SOW) approval. Clients retain 100% intellectual property and administrative ownership of all custom code, domains, and cloud accounts upon final milestone completion.
+                </p>
+                <p>
+                    <strong style="color: var(--cyan);">3. Warranty &amp; Support Boundaries:</strong> Our 90-day post-launch warranty covers functional defects in delivered code. Third-party hosting/domain renewal fees, new page additions, and post-handover content edits are billed separately or covered under an optional Annual Maintenance Contract (AMC).
+                </p>
             </div>
         </section>
 
-        <!-- PAGE 4: CONTACT (FRICTIONLESS DIRECT CHANNELS + FORM) -->
+        <!-- PAGE 4: CONTACT (ZERO-FAIL COPY EMAIL + WHATSAPP + WEB3FORMS) -->
         <section class="view-section" id="page-4">
             <div class="contact-card">
-                <div style="text-align: center; margin-bottom: 18px;">
+                <div style="text-align: center; margin-bottom: 14px;">
                     <h2 style="font-size: 1.65rem; margin-bottom: 6px;">Start a Direct Conversation</h2>
-                    <p style="color: var(--muted); font-size: 0.9rem;">Official Email: <strong style="color: var(--cyan);">thamarai@rogbolt.com</strong></p>
+                    <p style="color: var(--muted); font-size: 0.9rem;">Reach our Sri Vijaya Puram engineering desk directly:</p>
+
+                    <!-- One-Click Copy Email Bar (Works on Every Phone/Browser) -->
+                    <div class="email-copy-bar">
+                        <span id="officialEmailText">thamarai@rogbolt.com</span>
+                        <button type="button" class="copy-btn" id="copyEmailBtn" onclick="copyOfficialEmail()">Copy Email</button>
+                    </div>
                 </div>
 
                 <div class="quick-channels">
                     <a href="https://wa.me/919547772348?text=Hi%20ROGBOLT%20Team%2C%20I%20visited%20rogbolt.com%20and%20would%20like%20to%20discuss%20an%20IT%20%2F%20Cloud%20project." target="_blank" rel="noopener" class="btn-whatsapp">
-                        &#128172; Chat on WhatsApp
+                        &#128172; Instant WhatsApp Chat
                     </a>
-                    <a href="mailto:thamarai@rogbolt.com?subject=Discovery%20Call%20Request%20-%20ROGBOLT" class="btn-secondary" style="padding: 11px 18px; font-size: 0.88rem;">
-                        &#128197; Request 15-Min Discovery Call
+                    <a href="tel:+919547772348" class="btn-secondary" style="padding: 11px 18px; font-size: 0.88rem;">
+                        &#128222; Call +91 95477 72348
                     </a>
                 </div>
 
-                <form onsubmit="sendInquiry(event)">
+                <form id="projectBriefForm" onsubmit="sendInquiry(event)">
+                    <!-- Replace value below with your free Web3Forms Access Key if desired -->
+                    <input type="hidden" id="web3Key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+
                     <div class="form-group">
-                        <label>Your Name</label>
+                        <label for="senderName">Your Name</label>
                         <input type="text" id="senderName" placeholder="Full Name" required>
                     </div>
                     <div class="form-group">
-                        <label>Company / Organization Name</label>
+                        <label for="senderOrg">Company / Resort Name</label>
                         <input type="text" id="senderOrg" placeholder="e.g., TSG Hotels & Resorts" required>
                     </div>
                     <div class="form-group">
-                        <label>Service Needed</label>
+                        <label for="senderContact">Your Phone / WhatsApp or Email</label>
+                        <input type="text" id="senderContact" placeholder="e.g., +91 98XXX XXXXX or name@company.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="serviceType">Service Needed</label>
                         <select id="serviceType">
-                            <option value="Business Website / Web App">Business Website / Web App</option>
-                            <option value="Cloud Setup & Deployment">Cloud Setup &amp; Deployment</option>
-                            <option value="IT Consulting & Support">IT Consulting &amp; Support</option>
-                            <option value="General B2B Partnership">General B2B Partnership</option>
+                            <option value="Sub-2s Speed & CWV Optimization">Sub-2s Speed &amp; CWV Optimization</option>
+                            <option value="Zero-Commission Direct Booking Website">Zero-Commission Direct Booking Website</option>
+                            <option value="Cloudflare Security, SSL & DNS Setup">Cloudflare Security, SSL &amp; DNS Setup</option>
+                            <option value="IT Consulting & 4-Hr Local AMC">IT Consulting &amp; 4-Hr Local AMC</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label>Brief Description of Your Requirement</label>
-                        <textarea id="senderMsg" rows="3" placeholder="Describe your goals, timeline, or current setup..." required></textarea>
+                        <label for="senderMsg">Brief Description of Your Requirement</label>
+                        <textarea id="senderMsg" rows="3" placeholder="Share your website URL, goals, or timeline..." required></textarea>
                     </div>
-                    <button type="submit" class="btn-primary" style="width: 100%;">Send Project Brief via Email &rarr;</button>
+                    <button type="submit" id="submitBriefBtn" class="btn-primary" style="width: 100%;">Submit Project Brief &rarr;</button>
+                    <div id="formFeedback" class="status-banner"></div>
                 </form>
             </div>
         </section>
@@ -1132,14 +1168,14 @@
             <button class="page-dot active" onclick="switchPage(0)" aria-label="Home"></button>
             <button class="page-dot" onclick="switchPage(1)" aria-label="Services"></button>
             <button class="page-dot" onclick="switchPage(2)" aria-label="How We Work"></button>
-            <button class="page-dot" onclick="switchPage(3)" aria-label="About & Origin"></button>
+            <button class="page-dot" onclick="switchPage(3)" aria-label="About & Terms"></button>
             <button class="page-dot" onclick="switchPage(4)" aria-label="Contact"></button>
         </div>
         <button class="nav-arrow" onclick="stepPage(1)" title="Next">&rsaquo;</button>
     </div>
 
     <footer>
-        &copy; 2026 <strong>ROGBOLT</strong> &bull; Sri Vijaya Puram (Port Blair), Andaman &amp; Nicobar Islands, India &bull; <a onclick="switchPage(3)">Origin Story &amp; Terms</a>
+        &copy; 2026 <strong>ROGBOLT</strong> &bull; Sri Vijaya Puram (Port Blair), Andaman &amp; Nicobar Islands, India &bull; <a onclick="switchPage(3)">Privacy &amp; Terms</a>
     </footer>
 
     <script>
@@ -1180,7 +1216,7 @@
             switchPage(next);
         }
 
-        // Angle-Locked Horizontal Touch Swipe Support (Prevents Accidental Vertical Scroll Triggers)
+        // Angle-Locked Horizontal Touch Swipe Support
         let touchStartX = 0;
         let touchStartY = 0;
         document.addEventListener('touchstart', e => {
@@ -1195,11 +1231,36 @@
             }
         }, { passive: true });
 
-        // Zero-Backend Lead Capture Handler
+        // One-Click Copy Official Email
+        function copyOfficialEmail() {
+            const email = 'thamarai@rogbolt.com';
+            const btn = document.getElementById('copyEmailBtn');
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(email).then(() => {
+                    btn.textContent = 'Copied!';
+                    setTimeout(() => { btn.textContent = 'Copy Email'; }, 2200);
+                });
+            } else {
+                const temp = document.createElement('input');
+                temp.value = email;
+                document.body.appendChild(temp);
+                temp.select();
+                document.execCommand('copy');
+                document.body.removeChild(temp);
+                btn.textContent = 'Copied!';
+                setTimeout(() => { btn.textContent = 'Copy Email'; }, 2200);
+            }
+        }
+
+        // Reliable Home Quick Audit Request (Routes cleanly to WhatsApp + Confirmation Banner)
         function quickLeadSubmit(e) {
             e.preventDefault();
-            const email = encodeURIComponent(document.getElementById('quickLeadEmail').value);
-            window.location.href = `mailto:thamarai@rogbolt.com?subject=Early%20Access%20%26%20Priority%20Onboarding%20Request%20-%20ROGBOLT&body=Hello%20ROGBOLT%20Team%2C%0A%0APlease%20keep%20me%20updated%20and%20notify%20me%20for%20priority%20IT%20%26%20Cloud%20onboarding.%0A%0ABusiness%20Email%3A%20${email}%0A%0AThank%20you.`;
+            const val = document.getElementById('quickLeadInput').value.trim();
+            const status = document.getElementById('quickLeadStatus');
+            status.style.display = 'block';
+            status.innerHTML = '<strong>Audit Request Ready:</strong> Opening WhatsApp to send <em>' + val.replace(/</g, '&lt;') + '</em> to ROGBOLT Engineering...';
+            const waText = encodeURIComponent('Hi ROGBOLT Team, please run a Free Speed & Security Audit for: ' + val);
+            window.open('https://wa.me/919547772348?text=' + waText, '_blank', 'noopener');
         }
 
         function runEdgeTest() {
@@ -1219,13 +1280,62 @@
                 });
         }
 
-        function sendInquiry(e) {
+        // Web3Forms + Zero-Fail WhatsApp/Email Submission
+        async function sendInquiry(e) {
             e.preventDefault();
-            const name = encodeURIComponent(document.getElementById('senderName').value);
-            const org = encodeURIComponent(document.getElementById('senderOrg').value);
-            const service = encodeURIComponent(document.getElementById('serviceType').value);
-            const msg = encodeURIComponent(document.getElementById('senderMsg').value);
-            window.location.href = `mailto:thamarai@rogbolt.com?subject=${service}%20Inquiry%20-%20${org}&body=Name:%20${name}%0ACompany:%20${org}%0AService:%20${service}%0A%0ARequirement:%0A${msg}`;
+            const btn = document.getElementById('submitBriefBtn');
+            const feedback = document.getElementById('formFeedback');
+            const accessKey = document.getElementById('web3Key').value.trim();
+
+            const name = document.getElementById('senderName').value.trim();
+            const org = document.getElementById('senderOrg').value.trim();
+            const contact = document.getElementById('senderContact').value.trim();
+            const service = document.getElementById('serviceType').value;
+            const msg = document.getElementById('senderMsg').value.trim();
+
+            btn.disabled = true;
+            btn.textContent = 'Sending Brief...';
+
+            if (accessKey && accessKey !== 'YOUR_WEB3FORMS_ACCESS_KEY') {
+                try {
+                    const res = await fetch('https://api.web3forms.com/submit', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                        body: JSON.stringify({
+                            access_key: accessKey,
+                            subject: `New ROGBOLT Inquiry: ${service} - ${org}`,
+                            from_name: name,
+                            company: org,
+                            contact: contact,
+                            service: service,
+                            message: msg
+                        })
+                    });
+                    const data = await res.json();
+                    if (data.success) {
+                        feedback.style.display = 'block';
+                        feedback.innerHTML = '<strong>&#10003; Brief Sent Directly to thamarai@rogbolt.com!</strong> Our Sri Vijaya Puram team will respond within 4 business hours.';
+                        document.getElementById('projectBriefForm').reset();
+                        btn.disabled = false;
+                        btn.textContent = 'Submit Project Brief →';
+                        return;
+                    }
+                } catch (err) {
+                    // Fall through to instant WhatsApp dispatch if offline/blocked
+                }
+            }
+
+            // Instant Zero-Fail WhatsApp Dispatch + Direct Mailto Option
+            const summaryText = `Hi ROGBOLT Team,\n*Name:* ${name}\n*Company:* ${org}\n*Contact:* ${contact}\n*Service:* ${service}\n*Details:* ${msg}`;
+            const waUrl = 'https://wa.me/919547772348?text=' + encodeURIComponent(summaryText);
+            const mailUrl = `mailto:thamarai@rogbolt.com?subject=${encodeURIComponent(service + ' - ' + org)}&body=${encodeURIComponent(summaryText)}`;
+
+            feedback.style.display = 'block';
+            feedback.innerHTML = `<strong>&#10003; Project Brief Prepared!</strong> Opening WhatsApp for instant delivery, or <a href="${mailUrl}" style="color:#38BDF8; text-decoration:underline;">click here to open your Email app</a>.`;
+            window.open(waUrl, '_blank', 'noopener');
+
+            btn.disabled = false;
+            btn.textContent = 'Submit Project Brief →';
         }
     </script>
 </body>
